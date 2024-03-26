@@ -22,7 +22,7 @@ public class ConsoleLogger
         if (logEntry.logLevel == LogLevel.Error || logEntry.logLevel == LogLevel.Critical && logEntry.exception is not null)
         {
             Console.ForegroundColor = ConsoleColor.DarkYellow;
-            Console.WriteLine($" Exception: {(logEntry.exception?.ToString())}");
+            Console.WriteLine($" {(logEntry.exception?.ToString())}");
         }
 
         Console.WriteLine();
