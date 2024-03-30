@@ -19,7 +19,7 @@ To configure Alogger, simply add the following settings to your `appsettings.jso
 
 ```json
 "ALog": {
-  "LogTo": "Console",
+  "LogTo": ["Console"],
   "LogLevel": "Information"
 }
 ```
