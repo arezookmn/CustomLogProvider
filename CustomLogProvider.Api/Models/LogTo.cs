@@ -2,5 +2,7 @@
 
 public enum LogTo
 {
-    Console
+    Console,
+    Databse,
+    CSV
 }
